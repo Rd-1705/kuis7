@@ -1,0 +1,16 @@
+figure{
+    border: solid;
+    width: min-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: cadetblue;
+    text-align: center;
+   
+}
+img{
+    width: 23vw;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
