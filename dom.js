@@ -72,12 +72,14 @@ function card(produc) {
     buy.addEventListener('click',()=> confirm('Apakah anda yakin membeli produk ini?'));
     let com = document.createElement('button');
     com.textContent = 'Komentar';
+    com.addEventListener('click',()=> prompt('Tambahkan Komentar'));
 
     figcaption.appendChild(h1);
     figcaption.appendChild(ul);
     figcaption.appendChild(h2);
     figcaption.appendChild(like);
     figcaption.appendChild(buy);
+    figcaption.appendChild(com);
     figure.appendChild(img);
     figure.appendChild(figcaption);
     content.appendChild(figure);
